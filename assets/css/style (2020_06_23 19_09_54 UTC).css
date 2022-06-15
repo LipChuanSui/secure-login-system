@@ -1,0 +1,45 @@
+.sticky {
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	padding: 5px 1rem !important;
+	z-index: 99;
+}
+
+#header {
+	background: beige
+}
+
+#navbarResponsive {
+	width: 85%;
+}
+
+.logo {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+.logo img {
+	height: 90px;
+}
+
+a.btn-read{
+	color:rgba(0,0,0);
+	background-color: beige;
+	border-color: beige;
+}
+a.btn-link:hover{
+	color:rgba(0,0,0,.7);
+}
+
+.pad_bot{
+	padding-bottom: 150px;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
